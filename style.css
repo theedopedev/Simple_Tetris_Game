@@ -1,0 +1,58 @@
+body {
+    background-image: url('background1.jfif');
+    background-size: cover;
+    overflow: hidden;
+}
+
+.grid {
+    width: 200px;
+    height: 420px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color:  antiquewhite;
+    opacity: 0.85;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+
+.grid div {
+    width: 20px;
+    height: 20px;
+    border-radius: 3px;
+    background-color: grey;
+}
+h1, h4 {
+    text-align: center;
+    color: white;
+    margin: 10px;
+}
+
+button {
+    margin: 20px;
+}
+
+.tetrominoes{
+    background-color: blue;
+    border-width: 10px;
+    border-color: darkblue;
+}
+
+.mini-grid {
+    width: 80px;
+  height: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: antiquewhite;
+    margin: auto;
+    margin-top: 50px;
+    margin-right: 500px;
+    border-radius: 5px;
+  }
+  
+  .mini-grid div {
+    width: 20px;
+    height: 20px;
+    border-radius: 3px;
+    background-color: grey;
+  }
